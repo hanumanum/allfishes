@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>My Simple Paralax</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+
+</head>
+<body>
+
+	<div id="container" class="container">
+		<ul id="scene" class="scene" data-friction-x="0.1"
+			data-friction-y="0.1"
+			data-scalar-x="25"
+			data-scalar-y="15">
+			<!-- <li class="layer" data-depth="1">
+				<img src="images/back.png">
+			</li> -->
+	
+			<li class="layer" data-depth="5">
+				<img src="images/bubble1.png">
+			</li>
+			<li class="layer" data-depth="6">
+				<img src="images/bubble2.png">
+			</li>
+			<li class="layer" data-depth="4">
+				<img src="images/bubble3.png">
+			</li>
+			<li class="layer" data-depth="6">
+				<img src="images/bubble4.png">
+			</li>
+			<li class="layer" data-depth="4">
+				<img src="images/bubble5.png">
+			</li>
+		
+			<li class="layer" data-depth="6">
+				<img src="images/bubble8.png">
+			</li>
+			<li class="layer" data-depth="5">
+				<img src="images/bubble9.png">
+			</li>
+			<li class="layer" data-depth="6">
+				<img src="images/bubble10.png">
+			</li>
+			<li class="layer" data-depth="8">
+				<img src="images/fish1.png">
+			</li>
+			<li class="layer" data-depth="5">
+				<img src="images/fish2.png">
+			</li>
+			<li class="layer" data-depth="6">
+				<img src="images/fish3.png">
+			</li>
+			<li class="layer" data-depth="7">
+				<img src="images/fish4.png">
+			</li>			
+
+			<li class="layer" data-depth="5">
+				<img src="images/fish5.png">
+			</li>			
+			<li class="layer" data-depth="9">
+				<img src="images/fish6.png">
+			</li>			
+			<li class="layer" data-depth="10">
+				<img src="images/fish8.png">
+			</li>			
+			<li class="layer" data-depth="4">
+				<img src="images/bubbles.png">
+			</li>
+				
+			<li class="layer" data-depth="0.6">
+				<img src="images/fish11.png">
+			</li>			
+			<li class="layer" data-depth="0.6">
+				<img src="images/mans.png">
+			</li>
+			<li class="layer" data-depth="0.6">
+				<img src="images/mans.png">
+			</li>
+			<li class="layer" data-depth="0.8">
+				<img src="images/vishap.png">
+			</li>
+			<li class="layer" data-depth="1">
+				<img src="images/burg.png">
+			</li>
+			<li class="layer" data-depth="3">
+				<img src="images/ball.png">
+			</li>
+			<li class="layer" data-depth="1">
+				<img src="images/toy.png">
+			</li>
+	<li class="layer" data-depth="6">
+				<img src="images/bubble6.png">
+			</li>
+			<li class="layer" data-depth="4">
+				<img src="images/bubble7.png">
+			</li>
+
+		<li class="layer" data-depth="6">
+				<img src="images/fish10.png">
+			</li>
+			<li class="layer" data-depth="6">
+				<img src="images/fish12.png">
+			</li>
+
+			<li class="layer" data-depth="4">
+				<img src="images/fish7.png">
+			</li>			
+
+			<li class="layer" data-depth="8">
+				<img src="images/2rightfishes.png">
+			</li>			
+
+		</ul>
+	</div>
+
+	<!-- Scripts -->
+	<script src="scripts/jquery.js"></script>
+	<script src="parallax-master/deploy/jquery.parallax.js"></script>
+	<script>
+		$('#scene').parallax();
+	</script>
+
+</body>
+</html>
